@@ -3,27 +3,29 @@
 /********** Base styles **********/
 * {
   box-sizing: border-box;
+   margin: 0;
+  padding: 0;
 }
 h1 {
   margin-bottom: 15px;
   text-align: center;
 }
 
-p {
+p { 
   border: 1px solid black;
-  background-color: #A52A2A;
+  background-color: #615d57;
   width: 90%;
   height: 150px;
-  margin-right: auto;
-  margin-left: auto;
-  font-family: Helvetica;
-  color: white;
+  margin-right: 10%;
+  margin-left: 10%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: bold
+  color: #100c45;
+
 }
 
-
-
 .row {
-  width: 100%;
+  width: 90%;
 }
 
 /********** Desktop devices only **********/
@@ -156,5 +158,25 @@ p {
   .col-xs-12 {
     width: 100%;
   }
+}
+#p1 {
+  background-color: #A52A2A;
+  position: absolute;
+  font-family: Helvetica;
+   top: 15.5%;
+  left: 17.2%;
+}
+#p2 {
+  background-color: #A8261D;
+  position: absolute;
+   top: 15.5%;
+  left: 39.7%;
+}
+
+#p3 {
+  background-color: #ad6e1a;
+  position: absolute;
+  top: 15.5%;
+  left: 62.05%;
 }
 </style>
